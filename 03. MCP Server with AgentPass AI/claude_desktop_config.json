@@ -1,0 +1,22 @@
+{
+  "servers": {
+    "Demo": {
+      "command": "C:\\Program Files\\nodejs\\npx.cmd",
+      "args": [
+        "-y",
+        "@ownid/mcp-remote@latest",
+        "https://cmenv7ko6006h2i01t7yp5vfj.server.agentpass.ai/api/mcp"
+      ]
+    }
+  },
+  "mcpServers": {
+    "Demo": {
+      "command": "C:\\Program Files\\nodejs\\npx\r",
+      "args": [
+        "-y",
+        "@ownid/mcp-remote@latest",
+        "https://cmenv7ko6006h2i01t7yp5vfj.server.agentpass.ai/api/mcp"
+      ]
+    }
+  }
+}
