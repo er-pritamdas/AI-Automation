@@ -8,11 +8,12 @@ This repository brings together multiple projects, each leveraging state-of-the-
 
 ## 📚 Index
 
-| # | Project                                                                                       | Description                                     |
-| - | --------------------------------------------------------------------------------------------- | ----------------------------------------------- |
-| 1 | [AI Agent for ATS Optimization](./01.%20AI%20Agent%20for%20ATS%20Optimization/README.md)         | Automate resume analysis & optimization for ATS |
-| 2 | [RAG Chatbot for Company Documents](./02.%20RAG%20Chatbot%20for%20Company%20Documents/README.md) | Conversational search over Google Drive docs    |
-| 3 | [MCP Server with AgentPass AI](./03.%20MCP%20Server%20with%20AgentPass%20AI/README.md)           | No-code tool server for Claude & Copilot        |
+| #   | Project                                                                                          | Description                                     |
+| --- | ------------------------------------------------------------------------------------------------ | ----------------------------------------------- |
+| 1   | [AI Agent for ATS Optimization](./01.%20AI%20Agent%20for%20ATS%20Optimization/README.md)         | Automate resume analysis & optimization for ATS |
+| 2   | [RAG Chatbot for Company Documents](./02.%20RAG%20Chatbot%20for%20Company%20Documents/README.md) | Conversational search over Google Drive docs    |
+| 3   | [MCP Server with AgentPass AI](./03.%20MCP%20Server%20with%20AgentPass%20AI/README.md)           | No-code tool server for Claude & Copilot        |
+| 4   | [Clawdbot (Moltbot)](./04.%20Clawdbot_Moltbot/Setup.md)                                          | Local AI Agent with Ollama & WhatsApp           |
 
 ---
 
@@ -51,6 +52,15 @@ Create and host Model Context Protocol (MCP) servers visually with AgentPass AI.
 
 **Tech Stack:** AgentPass AI, MCP, VS Code Copilot, Claude
 **Use Cases:** Developer augmentation, tool orchestration, workflow automation
+
+---
+
+### 4. Clawdbot (Moltbot) 🦞
+
+A fully local AI agent setup running on Llama 3.x (8B) via Ollama, integrated with WhatsApp. Features a custom gateway, local model inference, and messaging capabilities without external paid APIs.
+
+**Tech Stack:** Moltbot/Clawdbot, Ollama, Node.js, WhatsApp
+**Use Cases:** Local AI assistant, secure messaging bot, autonomous agent experimentation
 
 ---
 
